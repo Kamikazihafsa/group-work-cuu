@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(pic1.jpg);
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f3f1b4;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: rgb(13, 167, 51);
+            text-align: center;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        label {
+            color: #333;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            background-color: #8c5a04;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #f2df75;
+        }
+
+        /* Image Styling */
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main section -->
+    <main>
+        <!-- Header with full name -->
+        <header>
+            <h1><I>ALPHA RESTAURANT </I></h1>
+        </header>
+        <!-- Paragraph about yourself -->
+        <section>
+            <p><b><i>we have the best and delicious burger around world its enreached with all balanced diet with chichen meat and vegetables order with us today </i></b></p>
+        </section>
+
+        <!-- Image of favorite place -->
+        <section>
+            <img src="burger-with-melted-cheese.jpg" alt="Your Image" />
+        </section>
+
+        <!-- Link to favorite website -->
+        <section>
+            <a href="https://www.cavendish.ac.ug">My Favorite Website</a>
+        </section>
+
+        <!-- Simple contact form -->
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main><br><br><br><br><br>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 ALPHA RESTAURANT. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
